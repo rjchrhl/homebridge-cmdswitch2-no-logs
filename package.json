@@ -4,7 +4,7 @@
   "description": "CMD plugin for HomeBridge (API 2.0): https://github.com/nfarina/homebridge",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joepool/homebridge-cmdswitch2.git"
+    "url": "git://github.com/rjchrhl/homebridge-cmdswitch2-no-logs.git"
   },
   "keywords": [
     "homebridge-plugin"
