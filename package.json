@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-cmdswitch2-no-logs",
-  "version": "0.5.1",
+  "name": "homebridge-cmdswitch2-no-logs-rjc",
+  "version": "1.0.0",
   "description": "CMD plugin for HomeBridge (API 2.0): https://github.com/nfarina/homebridge",
   "repository": {
     "type": "git",
@@ -9,12 +9,12 @@
   "keywords": [
     "homebridge-plugin"
   ],
-  "author": "joepool",
+  "author": "rjc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joepool/homebridge-cmdswitch2/issues"
+    "url": "https://github.com/rjchrhl/homebridge-cmdswitch2-no-logs/issues"
   },
-  "homepage": "https://github.com/joepool/homebridge-cmdswitch2#readme",
+  "homepage": "https://github.com/rjchrhl/homebridge-cmdswitch2-no-logs",
   "engines": {
     "node": "^18.20.4 || ^20.15.1 || ^22",
     "homebridge": "^1.6.0 || ^2.0.0-beta.0"

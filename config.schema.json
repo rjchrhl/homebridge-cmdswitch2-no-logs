@@ -15,65 +15,72 @@
         "title": "Switch Config",
         "type": "object",
         "properties": {
-          "name":{
+          "name": {
             "title": "Name",
             "type": "string",
             "required": true
           },
-          "on_cmd":{
+          "on_cmd": {
             "title": "On Command",
             "type": "string",
             "required": true
           },
-          "off_cmd":{
+          "off_cmd": {
             "title": "Off Command",
             "type": "string",
             "required": true
           },
-          "state_cmd":{
+          "state_cmd": {
             "title": "State Command",
             "type": "string",
             "required": false
           },
-          "polling":{
+          "polling": {
             "title": "Polling?",
             "type": "boolean",
             "required": false
           },
-          "interval":{
+          "interval": {
             "title": "Poll interval (s)",
             "type": "number",
             "required": false
           },
-          "timeout":{
+          "timeout": {
             "title": "Poll timout (s)",
             "type": "number",
             "required": false
           },
-          "manufacturer":{
+          "manufacturer": {
             "title": "Manufacturer",
             "type": "string",
             "required": false
           },
-          "model":{
+          "model": {
             "title": "Model",
             "type": "string",
             "required": false
           },
-          "serial":{
+          "serial": {
             "title": "Serial",
             "type": "string",
             "required": false
           }
         }
       }
+    },
+    "synchronous": {
+      "title": "Synchronous?",
+      "type": "boolean",
+      "required": false,
+      "description": "If true, all on_cmd/off_cmd/state_cmd executions are serialized through a single command queue."
     }
   },
   "form": [
     "name",
+    "synchronous",
     {
-      "key":"switches",
-      "items":[
+      "key": "switches",
+      "items": [
         "switches[].name",
         "switches[].on_cmd",
         "switches[].off_cmd",
