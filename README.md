@@ -7,7 +7,7 @@ Fork which adds "synchronous" option, and REQUIRES a specific exit code of 0 (on
 
 Any other exit code is ignored and state isn't changed. This allows for better error handling.
 
-For example: if a curl operation fails, or if a lock can't be obtained, the state won't change.
+For example: in a shell script, if a curl operation fails, or if a lock can't be obtained, the state won't change upon "exit 2".
 
 -----
 
