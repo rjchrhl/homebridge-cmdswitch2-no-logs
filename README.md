@@ -3,7 +3,7 @@
 [![npm](https://badgen.net/npm/v/homebridge-cmdswitch2-no-logs/latest)](https://www.npmjs.com/package/homebridge-cmdswitch2-no-logs) 
 [![npm](https://badgen.net/npm/dt/homebridge-cmdswitch2-no-logs)](https://www.npmjs.com/package/homebridge-cmdswitch2-no-logs)
 
-Fork which adds "synchronous" option, and REQUIRES a specific exit code of 0 (on) or 1 (off).
+Fork which adds "synchronous" option, and REQUIRES a specific exit code of 0 (on) or 1 (off) to update state.
 
 Any other exit code is ignored and state isn't changed. This allows for better error handling.
 
