@@ -4,8 +4,12 @@
 [![npm](https://badgen.net/npm/dt/homebridge-cmdswitch2-no-logs)](https://www.npmjs.com/package/homebridge-cmdswitch2-no-logs)
 
 Fork which adds "synchronous" option, and REQUIRES a specific exit code of 0 (on) or 1 (off).
+
 Any other exit code is ignored and state isn't changed. This allows for better error handling.
+
 For example: if a curl operation fails, or if a lock can't be obtained, the state won't change.
+
+-----
 
 CMD Plugin for [HomeBridge](https://github.com/nfarina/homebridge) (API 2.0)
 
